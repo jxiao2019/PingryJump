@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2B732A341ECB571B008BAA85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B732A331ECB571B008BAA85 /* AppDelegate.swift */; };
-		2B732A361ECB571B008BAA85 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B732A351ECB571B008BAA85 /* GameScene.sks */; };
 		2B732A381ECB571B008BAA85 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B732A371ECB571B008BAA85 /* Actions.sks */; };
 		2B732A3A1ECB571B008BAA85 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B732A391ECB571B008BAA85 /* GameScene.swift */; };
 		2B732A3C1ECB571B008BAA85 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B732A3B1ECB571B008BAA85 /* GameViewController.swift */; };
@@ -17,6 +16,7 @@
 		2B732A441ECB571B008BAA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B732A421ECB571B008BAA85 /* LaunchScreen.storyboard */; };
 		2B732A4F1ECB571B008BAA85 /* PingryJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B732A4E1ECB571B008BAA85 /* PingryJumpTests.swift */; };
 		2B732A5A1ECB571B008BAA85 /* PingryJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B732A591ECB571B008BAA85 /* PingryJumpUITests.swift */; };
+		2B732A681ECB592C008BAA85 /* UberJumpGraphics in Resources */ = {isa = PBXBuildFile; fileRef = 2B732A671ECB592C008BAA85 /* UberJumpGraphics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		2B732A301ECB571B008BAA85 /* PingryJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingryJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B732A331ECB571B008BAA85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B732A351ECB571B008BAA85 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2B732A371ECB571B008BAA85 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2B732A391ECB571B008BAA85 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2B732A3B1ECB571B008BAA85 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		2B732A551ECB571B008BAA85 /* PingryJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingryJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B732A591ECB571B008BAA85 /* PingryJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingryJumpUITests.swift; sourceTree = "<group>"; };
 		2B732A5B1ECB571B008BAA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B732A671ECB592C008BAA85 /* UberJumpGraphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UberJumpGraphics; path = ../UberJumpGraphics; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 		2B732A321ECB571B008BAA85 /* PingryJump */ = {
 			isa = PBXGroup;
 			children = (
+				2B732A671ECB592C008BAA85 /* UberJumpGraphics */,
 				2B732A331ECB571B008BAA85 /* AppDelegate.swift */,
-				2B732A351ECB571B008BAA85 /* GameScene.sks */,
 				2B732A371ECB571B008BAA85 /* Actions.sks */,
 				2B732A391ECB571B008BAA85 /* GameScene.swift */,
 				2B732A3B1ECB571B008BAA85 /* GameViewController.swift */,
@@ -245,8 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B732A3F1ECB571B008BAA85 /* Main.storyboard in Resources */,
-				2B732A361ECB571B008BAA85 /* GameScene.sks in Resources */,
 				2B732A411ECB571B008BAA85 /* Assets.xcassets in Resources */,
+				2B732A681ECB592C008BAA85 /* UberJumpGraphics in Resources */,
 				2B732A441ECB571B008BAA85 /* LaunchScreen.storyboard in Resources */,
 				2B732A381ECB571B008BAA85 /* Actions.sks in Resources */,
 			);
